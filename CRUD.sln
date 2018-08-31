@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD", "CRUD\CRUD.csproj", "{56810B59-142A-448D-8A24-14A4B13C3A13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD.Model", "CRUD.Model\CRUD.Model.csproj", "{71FE424C-4667-4617-AF45-3DECF3F799FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD.Dal", "CRUD.Dal\CRUD.Dal.csproj", "{EE4396CB-F64B-4C10-809C-FB9B8E8FCD64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56810B59-142A-448D-8A24-14A4B13C3A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56810B59-142A-448D-8A24-14A4B13C3A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56810B59-142A-448D-8A24-14A4B13C3A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56810B59-142A-448D-8A24-14A4B13C3A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71FE424C-4667-4617-AF45-3DECF3F799FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71FE424C-4667-4617-AF45-3DECF3F799FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71FE424C-4667-4617-AF45-3DECF3F799FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71FE424C-4667-4617-AF45-3DECF3F799FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE4396CB-F64B-4C10-809C-FB9B8E8FCD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4396CB-F64B-4C10-809C-FB9B8E8FCD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4396CB-F64B-4C10-809C-FB9B8E8FCD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4396CB-F64B-4C10-809C-FB9B8E8FCD64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB40BF8E-5EE0-4829-A33C-F0A9EC715A2C}
+	EndGlobalSection
+EndGlobal

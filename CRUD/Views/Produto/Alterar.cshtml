@@ -1,0 +1,24 @@
+﻿@model CRUD.Model.Produto
+
+@{
+    ViewBag.Title = "Alterar";
+}
+
+<div class="row form-group">
+    <div class="col-md-4">
+        @using (Html.BeginForm("Alterar", "Produto", FormMethod.Post))
+        {
+            <div class="form-group">
+                <label>Description</label>
+                @Html.TextBoxFor(x => x.Descricao, new { Class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label>Category</label>
+                @Html.DropDownListFor(x => x.CategoriaId, (IEnumerable<SelectListItem>)ViewBag.Categorias, new { Class = "form-control" })
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save</button>
+            @Html.ActionLink("Cancel", "Index", "Produto", null, new { Class = "btn btn-danger" })
+        }
+    </div>
+</div>
